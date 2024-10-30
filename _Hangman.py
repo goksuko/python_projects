@@ -11,7 +11,7 @@ print(logo)
 
 # word_of_game = word_list[random.randint(0, len(word_list) - 1)]
 word_of_game = random.choice(word_list)
-print(f"Psst! You are gonna find {word_of_game}.\n")
+print(f"Psst! You are gonna find --> {word_of_game} <--\n")
 length = len(word_of_game)
 # result = ["_"] * length  # Initialize result as a list of underscores
 result = []
